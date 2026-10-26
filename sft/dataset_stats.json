@@ -1,0 +1,41 @@
+{
+ "seed": 567885,
+ "raw_rows": 900,
+ "after_exact_dedup": 854,
+ "reused_qwen_kit": 349,
+ "train": 781,
+ "val": 73,
+ "val_doc_files": [
+  "Anthropic.md",
+  "HTTP_HTTPS.md",
+  "Instructions.md",
+  "Watch.md"
+ ],
+ "doc_sections": 117,
+ "by_kind_train": {
+  "memory": 214,
+  "arithmetic": 7,
+  "doc_dialogue": 38,
+  "followup": 110,
+  "doc_qa": 150,
+  "clarify": 117,
+  "identity": 60,
+  "topic_switch": 14,
+  "governance": 60,
+  "tool_call": 11
+ },
+ "by_kind_val": {
+  "doc_qa": 19,
+  "memory": 20,
+  "governance": 3,
+  "followup": 10,
+  "clarify": 10,
+  "doc_dialogue": 4,
+  "identity": 4,
+  "topic_switch": 3
+ },
+ "synthetic_train": 462,
+ "synthetic_val": 43,
+ "multi_turn_train(>=2 user turns)": 452,
+ "repo_head": "56222e8ee28627025450e918e119d6b203d59e97"
+}
